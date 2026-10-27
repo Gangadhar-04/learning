@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>Forms in HTML</h1> 
+   <form action="">
+    <div>
+        <label for="NAME">NAME</label>
+        <input type="NAME" type="text" placeholder="Enter NAME"
+         required>
+    </div>
+    <div>
+        <label for="Phone">Phone</label>
+        <input type="Phone" type="tel" placeholder="Enter Phone"
+         required>
+    </div>
+    <div>
+        <label for="Email">Email</label>
+        <input type="Email" type="Email" placeholder="Enter Email"
+         required>
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <input type="password" type="password" placeholder="Enter password"
+         required>
+    </div>
+    <div>
+        <label for="dob">Date of Birth</label>
+        <input type="dob" type="dob" placeholder="Enter Date of Birth"
+         required>
+    </div>
+    <div>
+        <label for="gender">Gender</label>
+        <select id="gender">
+        <option value="" desable selected>Select Gender
+        </option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="Other">Other</option>
+        </select>
+    </div>
+    <!-- Radio Button  -->
+     <p>Subscription Plan</p>
+     <input  id="basic" type="radio" name="subscription"
+     value="basic">
+     <label for="basic">Basic</label>
 
+     <input  id="premium" type="radio" name="subscription"
+     value="premium">
+     <label for="premium">Premium</label>
+
+     <input  id="vip" type="radio" name="subscription"
+     value="vip">
+     <label for="vip">VIP</label>
+
+     <!-- Cheakbox for Agreeing to  Terms  -->
+      <div>
+        <input id="terms" type="checkbox" required>
+        <label for="terms">I Aggree to tje Terms and Conditions
+        </label>
+      </div>
+        <!-- Text area for Comments -->
+         <div>
+            <label for="comments">Comments</label>
+            <textarea id="comments" placeholder="Enter your Comments" 
+            rows="4"></textarea>
+         </div>
+      
+       <!-- Submit Button -->
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+
+   </form>
+</body>
+</html>
